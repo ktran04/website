@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ky Tran — Portfolio</title>
+    <meta name="description" content="Portfolio of Ky Tran — About, Skills, Experience, Projects, and Resume." />
+    <meta property="og:title" content="Ky Tran — Portfolio" />
+    <meta property="og:description" content="About, Skills, Experience, Projects, and downloadable Resume." />
+    <meta property="og:type" content="website" />
+
+    <!-- Tailwind via CDN (simple, no build step) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+      html { scroll-behavior: smooth; }
+      .nav-active { color: rgb(59 130 246); } /* tailwind blue-500 */
+      /* Hide admin-only elements by default */
+      .admin-only { display: none; }
+    </style>
+  </head>
+  <body class="bg-neutral-950 text-neutral-100">
+    <!-- Header / Nav -->
+    <header class="sticky top-0 z-40 backdrop-blur bg-neutral-950/70 border-b border-neutral-800">
+      <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+        <a href="#home" class="font-semibold tracking-tight">Ky Tran</a>
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#about" class="hover:text-blue-400">About</a>
+          <a href="#skills" class="hover:text-blue-400">Skills</a>
+          <a href="#experience" class="hover:text-blue-400">Experience</a>
+          <a href="#projects" class="hover:text-blue-400">Projects</a>
+          <a href="#resume" class="hover:text-blue-400">Resume</a>
+        </nav>
+        <a href="#resume" class="md:hidden inline-flex items-center rounded-lg border border-neutral-700 px-3 py-1.5 text-sm">Resume</a>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="relative">
+      <div class="absolute inset-0 bg-gradient-to-b from-blue-600/10 via-transparent to-transparent"></div>
+      <div class="mx-auto max-w-6xl px-4 py-20 md:py-28">
+        <div class="max-w-3xl">
+          <h1 class="text-4xl md:text-6xl font-bold leading-tight">Hello! I’m <span class="text-blue-400">Ky Tran</span>.</h1>
+          <p class="mt-4 text-neutral-300 text-lg md:text-xl">CS @ Georgia Tech — building security, ML, and sports-tech projects. Here you'll find my background, projects, and a downloadable resume.</p>
+          <div class="mt-8 flex flex-wrap gap-3">
+            <a href="#projects" class="inline-flex items-center rounded-xl bg-blue-600 px-5 py-3 font-medium hover:bg-blue-500">View Projects</a>
+            <a id="resumeCta" href="#resume" class="inline-flex items-center rounded-xl border border-neutral-700 px-5 py-3 font-medium hover:border-neutral-600">Download Resume</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="mx-auto max-w-6xl px-4 py-16 border-t border-neutral-900">
+      <h2 class="text-2xl md:text-3xl font-semibold">About Me</h2>
+      <p class="mt-4 text-neutral-300 max-w-3xl">I’m a software engineer focused on cybersecurity and human-centered products. I enjoy shipping production-quality apps, researching security vulnerabilities, and leading technical teams. Aspiring Security Software Engineer
+      </p>
+      <ul class="mt-6 grid gap-3 text-neutral-300 md:grid-cols-2">
+        <li>🎓 B.S. CS — Information Internetworks & Cybersecurity/Privacy (Georgia Tech)</li>
+        <li>🛡️ Security projects: AI Phishing Email Detection, IoT Vulnerability Research, </li>
+        <li>📈 Leadership: Scrum Master, RA, TA</li>
+        <li>🧰 Stack: Python, JS/TS, React, Node, PostgreSQL, AWS, Firebase</li>
+      </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="mx-auto max-w-6xl px-4 py-16 border-t border-neutral-900">
+      <h2 class="text-2xl md:text-3xl font-semibold">Skills</h2>
+      <div class="mt-6 flex flex-wrap gap-2">
+        <!-- Edit freely -->
+        <span class="px-3 py-1 rounded-full bg-neutral-800">Python</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">JavaScript/TypeScript</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">React</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">Node.js</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">PostgreSQL</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">AWS</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">Security (TLS, XSS/CSRF, OAuth)</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">ML (sklearn, NLP)</span>
+        <span class="px-3 py-1 rounded-full bg-neutral-800">CI/CD, Testing</span>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="mx-auto max-w-6xl px-4 py-16 border-t border-neutral-900">
+      <h2 class="text-2xl md:text-3xl font-semibold">Experience</h2>
+      <div class="mt-8 space-y-8">
+        <!-- Item -->
+        <article class="grid md:grid-cols-[200px_1fr] gap-4">
+          <div class="opacity-80">2024 — 2025</div>
+          <div class="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
+            <header class="flex items-center justify-between gap-3">
+              <h3 class="font-semibold">Technology Consultant — Beeco (Hungary)</h3>
+              <span class="text-xs text-neutral-400">Remote/Europe</span>
+            </header>
+            <ul class="mt-3 list-disc pl-5 text-neutral-300">
+              <li>Designed recommendation system (pgvector, SBERT, Redis) and analytics stack.</li>
+              <li>Benchmarked competitors; proposed partnerships and product direction.</li>
+            </ul>
+          </div>
+        </article>
+        <!-- Item -->
+        <article class="grid md:grid-cols-[200px_1fr] gap-4">
+          <div class="opacity-80">2023 — 2025</div>
+          <div class="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
+            <header class="flex items-center justify-between gap-3">
+              <h3 class="font-semibold">Security/ML Projects — Georgia Tech</h3>
+              <span class="text-xs text-neutral-400">Atlanta, GA</span>
+            </header>
+            <ul class="mt-3 list-disc pl-5 text-neutral-300">
+              <li>Built phishing detection pipeline (RF + TF‑IDF + WHOIS + URL heuristics) → 92% accuracy.</li>
+              <li>Auth, HTTPS/TLS, and web security labs; malware and network defenses studies.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="mx-auto max-w-6xl px-4 py-16 border-t border-neutral-900">
+      <h2 class="text-2xl md:text-3xl font-semibold">Projects</h2>
+      <div class="mt-8 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Card -->
+        <article class="group border border-neutral-800 rounded-2xl overflow-hidden bg-neutral-900/50 hover:border-neutral-700 transition">
+          <div class="aspect-[16/9] bg-neutral-800"></div>
+          <div class="p-5">
+            <h3 class="font-semibold">AI Phishing Detector</h3>
+            <p class="mt-2 text-neutral-300 text-sm">Random Forest + NLP features, WHOIS/URL heuristics; Gmail integration.</p>
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Python</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-800">scikit-learn</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-800">NLP</span>
+            </div>
+            <div class="mt-4 flex gap-3 text-sm">
+              <a href="#" class="underline underline-offset-4">Code</a>
+              <a href="#" class="underline underline-offset-4">Demo</a>
+            </div>
+          </div>
+        </article>
+        <!-- Duplicate/modify cards below -->
+        <article class="group border border-neutral-800 rounded-2xl overflow-hidden bg-neutral-900/50 hover:border-neutral-700 transition">
+          <div class="aspect-[16/9] bg-neutral-800"></div>
+          <div class="p-5">
+            <h3 class="font-semibold">BuzzMeter — GT Football Win Prob</h3>
+            <p class="mt-2 text-neutral-300 text-sm">Pregame win-confidence tracker using Elo trends and minimal data APIs.</p>
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Python</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Plotly</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Streamlit</span>
+            </div>
+            <div class="mt-4 flex gap-3 text-sm">
+              <a href="#" class="underline underline-offset-4">Code</a>
+              <a href="#" class="underline underline-offset-4">Live</a>
+            </div>
+          </div>
+        </article>
+        <article class="group border border-neutral-800 rounded-2xl overflow-hidden bg-neutral-900/50 hover:border-neutral-700 transition">
+          <div class="aspect-[16/9] bg-neutral-800"></div>
+          <div class="p-5">
+            <h3 class="font-semibold">Spotify Wrapped+ (Android)</h3>
+            <p class="mt-2 text-neutral-300 text-sm">Shows wrapped for any date range; Firebase auth/storage; Scrum workflow.</p>
+            <div class="mt-3 flex flex-wrap gap-2 text-xs">
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Kotlin</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Firebase</span>
+              <span class="px-2 py-1 rounded-full bg-neutral-800">Android</span>
+            </div>
+            <div class="mt-4 flex gap-3 text-sm">
+              <a href="#" class="underline underline-offset-4">Code</a>
+              <a href="#" class="underline underline-offset-4">Demo</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Resume -->
+    <section id="resume" class="mx-auto max-w-6xl px-4 py-16 border-t border-neutral-900">
+      <h2 class="text-2xl md:text-3xl font-semibold">Resume</h2>
+      <p class="mt-4 text-neutral-300">View my resume below, or download a copy. If you’re the site owner, you can append <code>?admin=1</code> to the URL to reveal an upload box to replace the PDF.</p>
+
+      <!-- Viewer / Download -->
+      <div class="mt-6 grid lg:grid-cols-[1fr_320px] gap-6 items-start">
+        <div>
+          <div id="resumeMissing" class="hidden p-4 rounded-xl border border-neutral-800 bg-neutral-900/50 text-neutral-300">No <code>resume.pdf</code> found yet. Place one in <code>public/</code> or use the upload box (admin mode).</div>
+          <object id="resumeViewer" data="/resume.pdf" type="application/pdf" class="w-full h-[720px] rounded-xl border border-neutral-800"></object>
+          <div class="mt-3">
+            <a id="downloadBtn" href="/resume.pdf" download class="inline-flex items-center rounded-xl bg-blue-600 px-4 py-2 font-medium hover:bg-blue-500">Download Resume</a>
+          </div>
+        </div>
+
+        <!-- Admin-only uploader -->
+        <aside id="uploader" class="admin-only border border-neutral-800 rounded-2xl p-4 bg-neutral-900/50">
+          <h3 class="font-semibold">Replace Resume (PDF)</h3>
+          <form id="uploadForm" action="/upload" method="POST" enctype="multipart/form-data" class="mt-3 space-y-3">
+            <input id="resumeFile" name="resume" type="file" accept="application/pdf" class="block w-full text-sm file:mr-3 file:rounded-md file:border-0 file:bg-neutral-800 file:px-4 file:py-2 file:text-neutral-200" />
+            <button type="submit" class="inline-flex items-center rounded-lg border border-neutral-700 px-4 py-2 text-sm hover:border-neutral-600">Upload & Replace</button>
+            <p id="uploadMsg" class="text-sm text-neutral-400"></p>
+          </form>
+          <p class="mt-3 text-xs text-neutral-400">Requires running the provided Node server (see README below). Uploaded file is saved as <code>public/resume.pdf</code>.</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="border-t border-neutral-900">
+      <div class="mx-auto max-w-6xl px-4 py-10 text-sm text-neutral-400 flex flex-wrap items-center justify-between gap-4">
+        <p>© <span id="year"></span> Ky Tran</p>
+        <div class="flex items-center gap-4">
+          <a href="mailto:ky@example.com" class="hover:text-neutral-200">Email</a>
+          <a href="#" class="hover:text-neutral-200">LinkedIn</a>
+          <a href="#" class="hover:text-neutral-200">GitHub</a>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Year
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Active link highlighting
+      const sections = ['about','skills','experience','projects','resume'];
+      const links = Array.from(document.querySelectorAll('header nav a'));
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const id = entry.target.id;
+          const link = links.find(a => a.getAttribute('href') === '#' + id);
+          if (link) link.classList.toggle('nav-active', entry.isIntersecting);
+        });
+      }, { root: null, threshold: 0.5 });
+      sections.forEach(id => {
+        const el = document.getElementById(id);
+        if (el) observer.observe(el);
+      });
+
+      // Admin mode toggle via ?admin=1
+      const params = new URLSearchParams(window.location.search);
+      const isAdmin = params.get('admin') === '1';
+      if (isAdmin) {
+        document.querySelectorAll('.admin-only').forEach(el => { el.style.display = 'block'; });
+      }
+
+      // Check if resume exists; hide viewer if 404
+      (async () => {
+        try {
+          const res = await fetch('/resume.pdf', { method: 'HEAD' });
+          if (!res.ok) throw new Error('Missing');
+        } catch (e) {
+          document.getElementById('resumeViewer').classList.add('hidden');
+          document.getElementById('downloadBtn').classList.add('hidden');
+          document.getElementById('resumeMissing').classList.remove('hidden');
+        }
+      })();
+
+      // Upload handler (admin only)
+      const uploadForm = document.getElementById('uploadForm');
+      const uploadMsg  = document.getElementById('uploadMsg');
+      if (uploadForm) {
+        uploadForm.addEventListener('submit', async (e) => {
+          e.preventDefault();
+          uploadMsg.textContent = 'Uploading…';
+          try {
+            const formData = new FormData(uploadForm);
+            const res = await fetch('/upload', { method: 'POST', body: formData });
+            const data = await res.json();
+            if (!res.ok || !data.ok) throw new Error(data.error || 'Upload failed');
+            uploadMsg.textContent = 'Uploaded! Refreshing preview…';
+            // Bust the cache and refresh the viewer
+            const viewer = document.getElementById('resumeViewer');
+            viewer.classList.remove('hidden');
+            viewer.data = '/resume.pdf?v=' + Date.now();
+            const dl = document.getElementById('downloadBtn');
+            dl.classList.remove('hidden');
+            dl.href = '/resume.pdf?v=' + Date.now();
+            document.getElementById('resumeMissing').classList.add('hidden');
+          } catch (err) {
+            uploadMsg.textContent = 'Error: ' + err.message;
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

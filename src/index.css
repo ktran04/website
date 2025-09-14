@@ -1,0 +1,40 @@
+.skill-badge {
+  display: inline-flex;
+  align-items: center;
+  background: #23272b;
+  color: #f3f4f6;
+  border-radius: 9999px;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: transform 0.15s, box-shadow 0.15s;
+  box-shadow: 0 0 0 rgba(0,0,0,0);
+  cursor: pointer;
+}
+.skill-badge:hover {
+  transform: scale(1.08);
+  box-shadow: 0 4px 16px rgba(59,130,246,0.15);
+  z-index: 1;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Cleaned up starter CSS to remove flex centering that caused right-side gap */
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #0a0a0a; /* neutral-900 approximation */
+  color: #f5f5f5; /* near neutral-100 */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+#root { width: 100%; }
+a { font-weight: 500; color: #3b82f6; text-decoration: none; transition: color .2s; }
+a:hover { color: #60a5fa; }
+h1 { font-weight: 700; line-height: 1.15; }
+button { border-radius: .5rem; font-weight: 500; transition: background-color .2s, color .2s; }
+
+.admin-only { display: none; }
