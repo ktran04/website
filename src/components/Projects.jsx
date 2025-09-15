@@ -10,11 +10,11 @@ const Projects = () => (
           <img src="/logos/phishing.png" alt="AI Phishing Detector" className="w-full h-full object-cover block" />
         </div>
         <div className="p-5">
-          <h3 className="font-semibold">AI Phishing Detector</h3>
-          <p className="mt-2 text-neutral-300 text-sm">Random Forest + NLP features, email heuristics, Gmail integration.</p>
+          <h3 className="font-semibold">AI Phishing Email Detector</h3>
+          <p className="mt-2 text-neutral-300 text-sm">Phishing email detection system using ML that automatically scans emails and outputs security logs.</p>
           <div className="mt-2 flex flex-wrap gap-2 text-xs">
             <span className="px-2 py-1 rounded-full bg-neutral-800">Python</span>
-            <span className="px-2 py-1 rounded-full bg-neutral-800">Security automation</span>
+            <span className="px-2 py-1 rounded-full bg-neutral-800">Security automation (email scans, security logs)</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Machine learning (scikit-learn, Random Forest, NLP)</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Gmail integration</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Phishing detection</span>
@@ -31,7 +31,7 @@ const Projects = () => (
         </div>
         <div className="p-5">
           <h3 className="font-semibold">Spotify Wrapped App</h3>
-          <p className="mt-2 text-neutral-300 text-sm">Shows wrapped for any date range; Firebase auth/storage; Scrum workflow.</p>
+          <p className="mt-2 text-neutral-300 text-sm">Shows user's Spotify Wrapped for any range rather than just annually.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             <span className="px-2 py-1 rounded-full bg-neutral-800">Java</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Firebase</span>

@@ -10,9 +10,9 @@ const Footer = () => {
       <div className="mx-auto max-w-6xl px-4 py-10 text-sm text-neutral-400 flex flex-wrap items-center justify-between gap-4">
         <p>© <span id="year"></span> Ky Tran</p>
         <div className="flex items-center gap-4">
-          <a href="mailto:ky@example.com" className="hover:text-neutral-200">Email</a>
-          <a href="#" className="hover:text-neutral-200">LinkedIn</a>
-          <a href="#" className="hover:text-neutral-200">GitHub</a>
+          <a href="mailto:kytran2076@gmail.com" className="hover:text-neutral-200">Email</a>
+          <a href="https://www.linkedin.com/in/ky-tran-43561124b/" className="hover:text-neutral-200">LinkedIn</a>
+          <a href="https://github.com/ktran04" className="hover:text-neutral-200">GitHub</a>
         </div>
       </div>
     </footer>
