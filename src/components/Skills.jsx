@@ -6,7 +6,7 @@ const Skills = () => (
     <div className="mt-6 grid md:grid-cols-2 gap-10">
       {/* Software Section */}
       <div>
-        <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">💻 Software</h3>
+        <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">Software</h3>
         <div className="flex flex-wrap gap-2">
           {/* Programming Languages */}
           <span className="skill-badge">Python</span>
@@ -41,7 +41,7 @@ const Skills = () => (
 
       {/* Security Section */}
       <div>
-        <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">🔒 Security</h3>
+        <h3 className="text-xl font-semibold mb-3 flex items-center gap-2">Security</h3>
         <div className="flex flex-wrap gap-2">
           <span className="skill-badge">Reverse Engineering</span>
           <span className="skill-badge">Malware Reverse Engineering</span>

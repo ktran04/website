@@ -19,9 +19,9 @@ const About = () => (
         <p>At my NCR Atleos internship, I gained hands-on experience in platform engineering and endpoint security using Azure. While studying abroad in Hungary, I interned at a sustainability startup app beeco, where I worked as a technology consultant to design a roadmap for an AI-powered recommendation system (content-based + collaborative filtering) and conducted competitive gap analysis against international companies. </p>
         <p>On Georgia Tech's campus, I serve as a Teaching Assistant for CS Ethics, Resident Assistant for GT Housing, and Piccolo Section Leader for the Marching Band, developing leadership and mentorship skills by guiding peers academically, socially, and musically.</p>
         <ul className="mt-6 grid gap-3 text-neutral-300 md:grid-cols-2">
-          <li>🎓 B.S. CS — Networking & Cybersecurity/Privacy (Georgia Tech)</li>
-          <li>🐝 Involvements: Study Abroad, RA, TA, Marching Band Section Leader</li>
-          <li>📜 Certifications: AZ-900, MTA: Microsoft Software Development Fundamentals, Security+ (in progress)</li>
+          <li>B.S. CS — Networking & Cybersecurity/Privacy (Georgia Tech)</li>
+          <li>Involvements: Study Abroad, RA, TA, Marching Band Section Leader</li>
+          <li>Certifications: AZ-900, MTA: Microsoft Software Development Fundamentals, Security+ (in progress)</li>
         </ul>
       </div>
       <ProfileImageShuffle />
