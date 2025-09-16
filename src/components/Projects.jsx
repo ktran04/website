@@ -46,6 +46,28 @@ const Projects = () => (
           </div>
         </div>
       </article>
+      {/* Card */}
+      <article className="group border border-neutral-800 rounded-2xl overflow-hidden bg-neutral-900/50 hover:border-neutral-700 transition">
+        <div className="aspect-[16/9] bg-neutral-800 overflow-hidden">
+          <img src="/logos/cyberresearch.jpeg" alt="Vuln Research" className="w-full h-full object-cover"/>
+        </div>
+        <div className="p-5">
+          <h3 className="font-semibold">Embedded Systems Vulnerability Research</h3>
+          <p className="mt-2 text-neutral-300 text-sm">Research focused on identifying vulnerabilities in wireless fire alarm systems and 3D printers.</p>
+          <div className="mt-3 flex flex-wrap gap-2 text-xs">
+            <span className="px-2 py-1 rounded-full bg-neutral-800">Reverse Engineering</span>
+            <span className="px-2 py-1 rounded-full bg-neutral-800">Ghidra</span>
+            <span className="px-2 py-1 rounded-full bg-neutral-800">C</span>
+            <span className="px-2 py-1 rounded-full bg-neutral-800">Assembly</span>
+            <span className="px-2 py-1 rounded-full bg-neutral-800">Python Scripting</span>
+          </div>
+          <div className="mt-4 flex gap-3 text-sm">
+            <a href="https://escs.vip.gatech.edu/sites/default/files/2025-01/Fire_Alarm_Fall_2024_Final_Paper.pdf" className="underline underline-offset-4">Paper 1</a>
+            <a href="#" className="underline underline-offset-4">Paper 2 coming soon!</a>
+            <a href="#" className="underline underline-offset-4">Paper 3 coming soon!</a>
+          </div>
+        </div>
+      </article>
     </div>
   </section>
 );

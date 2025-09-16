@@ -28,13 +28,8 @@ const Skills = () => (
           <span className="skill-badge">Kanban</span>
 
           {/* Platforms */}
-          <span className="skill-badge">Linux / UNIX</span>
-          <span className="skill-badge">Windows</span>
           <span className="skill-badge">Azure</span>
           <span className="skill-badge">Docker</span>
-          <span className="skill-badge">Virtual Machines</span>
-          <span className="skill-badge">Git Bash</span>
-          <span className="skill-badge">MS Office Suite</span>
 
         </div>
       </div>
@@ -48,6 +43,7 @@ const Skills = () => (
           <span className="skill-badge">Vulnerability Assessment</span>
 
           {/* Security Tools */}
+          <span className="skill-badge">Linux</span>
           <span className="skill-badge">IDA Pro</span>
           <span className="skill-badge">Kali</span>
           <span className="skill-badge">Burp Suite</span>
