@@ -11,7 +11,7 @@ const Projects = () => (
         </div>
         <div className="p-5">
           <h3 className="font-semibold">AI Phishing Email Detector</h3>
-          <p className="mt-2 text-neutral-300 text-sm">Phishing email detection system using ML that automatically scans emails and outputs security logs.</p>
+          <p className="mt-2 text-neutral-300 text-sm">I developed a phishing email detection system using machine learning as part of Millenium Global Investment LLC's project with GT Greyhat. I trained Random Forest model using scikit-learn, engineered features from WHOIS domains and email content, and integrated it with Gmail API for real-time scanning and automated security logs.</p>
           <div className="mt-2 flex flex-wrap gap-2 text-xs">
             <span className="px-2 py-1 rounded-full bg-neutral-800">Python</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Security automation (email scans, security logs)</span>
@@ -31,7 +31,7 @@ const Projects = () => (
         </div>
         <div className="p-5">
           <h3 className="font-semibold">Spotify Wrapped App</h3>
-          <p className="mt-2 text-neutral-300 text-sm">Shows user's Spotify Wrapped for any range rather than just annually.</p>
+          <p className="mt-2 text-neutral-300 text-sm">Shows a user's Spotify Wrapped over any range rather than just annually. I served as Scrum Master for a six-person team, developed the backend, and designed the authentication UI integrated with Google Firebase.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             <span className="px-2 py-1 rounded-full bg-neutral-800">Java</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Firebase</span>
@@ -53,7 +53,7 @@ const Projects = () => (
         </div>
         <div className="p-5">
           <h3 className="font-semibold">Embedded Systems Vulnerability Research</h3>
-          <p className="mt-2 text-neutral-300 text-sm">Research focused on identifying vulnerabilities in wireless fire alarm systems and 3D printers.</p>
+          <p className="mt-2 text-neutral-300 text-sm">Research focused on identifying vulnerabilities in wireless fire alarm systems and 3D printers. Led a team of 6 in using RF monitoring, reverse engineering, and enhancing a Python script that bypasses authentication and allows custom firmware upload for fire alarm systems.</p>
           <div className="mt-3 flex flex-wrap gap-2 text-xs">
             <span className="px-2 py-1 rounded-full bg-neutral-800">Reverse Engineering</span>
             <span className="px-2 py-1 rounded-full bg-neutral-800">Ghidra</span>
