@@ -20,7 +20,7 @@ const Projects = () => (
             <span className="px-2 py-1 rounded-full bg-neutral-800">Phishing detection</span>
           </div>
           <div className="mt-4 flex gap-3 text-sm">
-            <a href="#" className="underline underline-offset-4">Code</a>
+            <a href="#" className="underline underline-offset-4">Code coming soon!</a>
           </div>
         </div>
       </article>

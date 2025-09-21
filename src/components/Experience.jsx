@@ -2,7 +2,7 @@ import React from 'react';
 
 const LogoBox = ({ src, alt }) => (
   <div className="w-40 h-28 overflow-hidden flex items-center justify-center">
-    <img src={src} alt={alt} className="max-w-full max-h-full object-contain" />
+    <img src={src} alt={alt} className="max-w-full max-h-full object-contain rounded-lg" />
   </div>
 );
 
@@ -20,7 +20,19 @@ const Experience = () => (
         <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
           <header className="flex items-center justify-between gap-3">
             <h3 className="font-semibold">Technology Consultant Intern — Beeco</h3>
-            <span className="text-xs text-neutral-400">Budapest, Hungary</span>
+            <span className="text-xs text-neutral-400">
+              <span aria-label="Budapest" className="inline-flex">
+                <span className="text-[#C8102E]">Bud</span>
+                <span className="text-white">ape</span>
+                <span className="text-[#008751]">st</span>
+              </span>
+              {", "}
+              <span aria-label="Hungary" className="inline-flex">
+                <span className="text-[#C8102E]">Hun</span>
+                <span className="text-white">ga</span>
+                <span className="text-[#008751]">ry</span>
+              </span>
+            </span>
           </header>
           <ul className="mt-3 list-disc pl-5 text-neutral-300">
             <li>Advised on backend architecture for a scalable, AI-powered recommendation system (Faiss, Sentence-BERT, pgvector).</li>
