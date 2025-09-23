@@ -10,7 +10,7 @@ const About = () => (
         <div className="mt-4 space-y-4 text-neutral-300 max-w-5xl">
           <p>I am a <b className="text-[#B3A369]">Computer Science</b> student at <b className="text-[#B3A369]">Georgia Tech</b> graduating in May 2026. My focus is in <b className="text-[#B3A369]">Cybersecurity</b> and <b className="text-[#B3A369]">Networking</b> with a minor in <b className="text-[#B3A369]">Leadership Studies</b>. Passionate about software engineering and cybersecurity, I enjoy building and deploying security systems.</p>
 
-          <p>At <b className="text-[#1b5142]">NCR Atleos</b>, I gained hands-on experience in <b className="text-[#1b5142]">platform engineering</b> and <b className="text-[#1b5142]">endpoint security</b> using <b className="text-[#1b5142]"> Microsoft Azure</b>. While studying abroad in <span aria-label="Hungary" className="inline-flex">
+          <p>At <b className="text-[#54B948]">NCR Atleos</b>, I gained hands-on experience in <b className="text-[#54B948]">platform engineering</b> and <b className="text-[#54B948]">endpoint security</b> using <b className="text-[#1b5142]"> Microsoft Azure</b>. While studying abroad in <span aria-label="Hungary" className="inline-flex">
             <span className="text-[#C8102E]">Hun</span>
             <span className="text-white">ga</span>
             <span className="text-[#008751]">ry</span>
