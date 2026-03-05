@@ -14,6 +14,23 @@ const Experience = () => (
       {/* Item */}
       <article className="grid md:grid-cols-[200px_1fr] gap-4">
         <div className="opacity-80 flex flex-col items-start gap-2">
+          <span>Feb 2026 — Present</span>
+          <LogoBox src="/logos/codepath.png" alt="CodePath Logo" />
+        </div>
+        <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
+          <header className="flex items-center justify-between gap-3">
+            <h3 className="font-semibold">Cybersecurity Tech Fellow — CodePath</h3>
+            <span className="text-xs text-neutral-400">Remote</span>
+          </header>
+          <ul className="mt-3 list-disc pl-5 text-neutral-300">
+            <li>Mentor 50+ students on security concepts (networking, social engineering, OSINT) and tools (John, CyberChef, Metasploit).</li>
+          </ul>
+        </div>
+      </article>
+
+      {/* Item */}
+      <article className="grid md:grid-cols-[200px_1fr] gap-4">
+        <div className="opacity-80 flex flex-col items-start gap-2">
           <span>May 2025 — June 2025</span>
           <LogoBox src="/logos/beeco.png" alt="Beeco Logo" />
         </div>
@@ -64,7 +81,7 @@ const Experience = () => (
       {/* Item */}
       <article className="grid md:grid-cols-[200px_1fr] gap-4">
         <div className="opacity-80 flex flex-col items-start gap-2">
-          <span>Aug 2025 — Current</span>
+          <span>Aug 2025 — December 2025</span>
           <LogoBox src="/logos/gatech.png" alt="Georgia Tech Logo" />
         </div>
         <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">

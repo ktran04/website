@@ -13,11 +13,12 @@ const Hero = () => (
           <div className="mt-4 text-neutral-300 text-lg md:text-xl">
             <ul className="grid py-4 gap-3 md:grid-cols-1">
               <li>
+                <b>Security Associate @ Equifax</b>
                 <b>B.S. in Computer Science (Cybersecurity & Networking) @ Georgia Tech</b>
               </li>
               <li>
-                <p><b>Certifications:</b> AZ-900, MTA: Microsoft Software Development Fundamentals, Security+ (in progress)</p>
-                <p><b>Involvements:</b> Study Abroad, RA, TA, Marching Band Section Leader</p>
+                <p><b>Certifications:</b> Security+, AZ-900, MTA: Microsoft Software Development Fundamentals, Saviynt ISAA</p>
+                <p><b>Involvements:</b> Study Abroad, RA, TA, Marching Band Section Leader, CodePath Cyber TF</p>
               </li>
             </ul>
           </div>
