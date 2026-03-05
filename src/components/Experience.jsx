@@ -1,8 +1,12 @@
 import React from 'react';
 
-const LogoBox = ({ src, alt }) => (
+const LogoBox = ({ src, alt, imgClassName = '' }) => (
   <div className="w-40 h-28 overflow-hidden flex items-center justify-center">
-    <img src={src} alt={alt} className="max-w-full max-h-full object-contain rounded-lg" />
+    <img
+      src={src}
+      alt={alt}
+      className={`max-w-full max-h-full object-contain rounded-lg ${imgClassName}`}
+    />
   </div>
 );
 
@@ -15,7 +19,7 @@ const Experience = () => (
       <article className="grid md:grid-cols-[200px_1fr] gap-4">
         <div className="opacity-80 flex flex-col items-start gap-2">
           <span>Feb 2026 — Present</span>
-          <LogoBox src="/logos/codepath.png" alt="CodePath Logo" />
+          <LogoBox src="/logos/codepath.png" alt="CodePath Logo" imgClassName="w-full h-full" />
         </div>
         <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
           <header className="flex items-center justify-between gap-3">
