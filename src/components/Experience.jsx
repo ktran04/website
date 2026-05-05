@@ -18,6 +18,23 @@ const Experience = () => (
       {/* Item */}
       <article className="grid md:grid-cols-[200px_1fr] gap-4">
         <div className="opacity-80 flex flex-col items-start gap-2">
+          <span>Jun 2026 — Present</span>
+          <LogoBox src="/logos/equifax.png" alt="Equifax Logo" imgClassName="w-full h-full" />
+        </div>
+        <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
+          <header className="flex items-center justify-between gap-3">
+            <h3 className="font-semibold">Security Engineer</h3>
+            <span className="text-xs text-neutral-400">Alpharetta, GA</span>
+          </header>
+          <ul className="mt-3 list-disc pl-5 text-neutral-300">
+            <li>Security Architecture</li>
+          </ul>
+        </div>
+      </article>
+
+      {/* Item */}
+      <article className="grid md:grid-cols-[200px_1fr] gap-4">
+        <div className="opacity-80 flex flex-col items-start gap-2">
           <span>Feb 2026 — Present</span>
           <LogoBox src="/logos/codepath.png" alt="CodePath Logo" imgClassName="w-full h-full" />
         </div>
@@ -27,7 +44,8 @@ const Experience = () => (
             <span className="text-xs text-neutral-400">Remote</span>
           </header>
           <ul className="mt-3 list-disc pl-5 text-neutral-300">
-            <li>Mentor 50+ students on security concepts (networking, social engineering, OSINT) and tools (John, CyberChef, Metasploit).</li>
+            <li>Mentored 50+ students on security concepts (networking, social engineering, OSINT) and tools (John, CyberChef, Metasploit).</li>
+            <li>Judged 9+ Enterprise Security Capstone projects, reviewing 18+ risk mitigation proposals and providing executive-level feedback on system hardening and threat remediation</li>
           </ul>
         </div>
       </article>
@@ -103,7 +121,7 @@ const Experience = () => (
       {/* Item */}
       <article className="grid md:grid-cols-[200px_1fr] gap-4">
         <div className="opacity-80 flex flex-col items-start gap-2">
-          <span>Dec 2023 — Current</span>
+          <span>Dec 2023 — May 2026</span>
           <LogoBox src="/logos/gatech.png" alt="Housing Logo" />
         </div>
         <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
