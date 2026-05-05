@@ -103,7 +103,7 @@ const Experience = () => (
       {/* Item */}
       <article className="grid md:grid-cols-[200px_1fr] gap-4">
         <div className="opacity-80 flex flex-col items-start gap-2">
-          <span>Aug 2025 — December 2025</span>
+          <span>Aug 2025 — Dec 2025</span>
           <LogoBox src="/logos/gatech.png" alt="Georgia Tech Logo" />
         </div>
         <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
