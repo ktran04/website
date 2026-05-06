@@ -58,6 +58,9 @@ const Skills = () => (
           <span className="skill-badge">Nmap</span>
           <span className="skill-badge">CyberChef</span>
           <span className="skill-badge">Autopsy</span>
+          <span className="skill-badge">TPM</span>
+          <span className="skill-badge">Okta</span>
+          <span className="skill-badge">AppArmor</span>
         </div>
       </div>
     </div>
