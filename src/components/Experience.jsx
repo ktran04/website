@@ -23,7 +23,7 @@ const Experience = () => (
         </div>
         <div className="bg-neutral-900/60 border border-neutral-800 rounded-2xl p-5">
           <header className="flex items-center justify-between gap-3">
-            <h3 className="font-semibold">Security Engineer</h3>
+            <h3 className="font-semibold">Security Engineer - Equifax</h3>
             <span className="text-xs text-neutral-400">Alpharetta, GA</span>
           </header>
           <ul className="mt-3 list-disc pl-5 text-neutral-300">
