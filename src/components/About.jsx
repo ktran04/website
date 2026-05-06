@@ -8,8 +8,8 @@ const About = () => (
       <div className="flex-1">
         <h2 className="text-3xl md:text-4xl font-semibold">About Me</h2>
         <div className="mt-4 space-y-4 text-neutral-300 max-w-5xl">
-          <p>I am a Security Engineer at <b className="text-[#941931]">Equifax</b> working on Security Architecture. Graduated from <b className="text-[#B3A369]">Georgia Tech</b> in May 2026 with a Bachelor of Science in 
-          <b className="text-[#B3A369]">Computer Science</b>, focused on <b className="text-[#B3A369]">Cybersecurity</b> and <b className="text-[#B3A369]">Networking</b> with a minor in <b className="text-[#B3A369]">Leadership Studies</b>. 
+          <p>I am a Security Engineer at <b className="text-[#941931]">Equifax</b> working on Security Architecture. Graduated from <b className="text-[#B3A369]">Georgia Tech</b> in May 2026 with a Bachelor of Science in
+           <b className="text-[#B3A369]">Computer Science</b>, focused on <b className="text-[#B3A369]">Cybersecurity</b> and <b className="text-[#B3A369]">Networking</b> with a minor in <b className="text-[#B3A369]">Leadership Studies</b>. 
           Currently serving as <b className="text-[#00E6A5]">CodePath </b> Cyber Tech Fellow to mentor aspiring cybersecurity professionals. Passionate about software engineering and cybersecurity, I enjoy building and deploying security systems.</p>
 
           <p>At <b className="text-[#54B948]">NCR Atleos</b>, I gained hands-on experience in <b className="text-[#54B948]">platform engineering</b> and <b className="text-[#54B948]">endpoint security</b> using <b className="text-[#1b5142]"> Microsoft Azure</b>. While studying abroad in <span aria-label="Hungary" className="inline-flex">
